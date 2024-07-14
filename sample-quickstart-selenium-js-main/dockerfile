@@ -1,0 +1,26 @@
+FROM node:latest
+
+# Instale as dependências necessárias para o Chrome
+RUN apt-get update && apt-get install -y \
+    wget \
+    gnupg \
+    --no-install-recommends
+
+# Adicione o repositório do Google Chrome e instale o Chrome
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+    sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' && \
+    apt-get update && \
+    apt-get install -y google-chrome-stable --no-install-recommends && \
+    rm -rf /var/lib/apt/lists/*
+
+# Defina o diretório de trabalho
+WORKDIR /home/wdio/
+
+# Copie o package.json e o package-lock.json
+COPY . /home/wdio/
+
+# Instale as dependências do Node.js
+RUN npm install
+
+# Comando para iniciar a aplicação
+CMD ["npm", "run", "wdio"]
