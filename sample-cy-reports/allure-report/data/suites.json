@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Product List",
+    "children" : [ {
+      "name" : "Validate product detail link",
+      "uid" : "bf06d98e9bf2cda5",
+      "parentUid" : "55fc2fc815fda60f9e7e4acab2e71765",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721344601033,
+        "stop" : 1721344617512,
+        "duration" : 16479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "55fc2fc815fda60f9e7e4acab2e71765"
+  }, {
+    "name" : "Product Search",
+    "children" : [ {
+      "name" : "Product Ingrid Running Jacket should be return correctly",
+      "uid" : "c5d0672797b5cd23",
+      "parentUid" : "6ced76bf4279d19ecd0b785cbea66c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721344622658,
+        "stop" : 1721344627487,
+        "duration" : 4829
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Product Augusta Pullover Jacket should be return correctly",
+      "uid" : "77c3c1f7964be352",
+      "parentUid" : "6ced76bf4279d19ecd0b785cbea66c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721344627532,
+        "stop" : 1721344630848,
+        "duration" : 3316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Product Josie Yoga Jacket should be return correctly",
+      "uid" : "480d2f1adeabb189",
+      "parentUid" : "6ced76bf4279d19ecd0b785cbea66c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721344630872,
+        "stop" : 1721344633712,
+        "duration" : 2840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Product Stellar Solar Jacket should be return correctly",
+      "uid" : "a44362aafc38f66d",
+      "parentUid" : "6ced76bf4279d19ecd0b785cbea66c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721344633739,
+        "stop" : 1721344636363,
+        "duration" : 2624
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Product Typhon Performance Fleece-lined Jacket should be return correctly",
+      "uid" : "9bcb228aa7737931",
+      "parentUid" : "6ced76bf4279d19ecd0b785cbea66c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721344636372,
+        "stop" : 1721344639133,
+        "duration" : 2761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6ced76bf4279d19ecd0b785cbea66c71"
+  } ]
+}

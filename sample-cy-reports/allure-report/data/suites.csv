@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 18 23:17:13 UTC 2024","Thu Jul 18 23:17:16 UTC 2024","2624","","Product Search","","","","Product Stellar Solar Jacket should be return correctly",""
+"passed","Thu Jul 18 23:16:41 UTC 2024","Thu Jul 18 23:16:57 UTC 2024","16479","","Product List","","","","Validate product detail link",""
+"passed","Thu Jul 18 23:17:16 UTC 2024","Thu Jul 18 23:17:19 UTC 2024","2761","","Product Search","","","","Product Typhon Performance Fleece-lined Jacket should be return correctly",""
+"passed","Thu Jul 18 23:17:10 UTC 2024","Thu Jul 18 23:17:13 UTC 2024","2840","","Product Search","","","","Product Josie Yoga Jacket should be return correctly",""
+"passed","Thu Jul 18 23:17:02 UTC 2024","Thu Jul 18 23:17:07 UTC 2024","4829","","Product Search","","","","Product Ingrid Running Jacket should be return correctly",""
+"passed","Thu Jul 18 23:17:07 UTC 2024","Thu Jul 18 23:17:10 UTC 2024","3316","","Product Search","","","","Product Augusta Pullover Jacket should be return correctly",""

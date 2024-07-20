@@ -1,0 +1,262 @@
+{
+  "uid" : "a44362aafc38f66d",
+  "name" : "Product Stellar Solar Jacket should be return correctly",
+  "fullName" : "Product Stellar Solar Jacket should be return correctly",
+  "historyId" : "d3bd83d23fccb60a5e91a5fcdd3d0a91",
+  "time" : {
+    "start" : 1721344633739,
+    "stop" : 1721344636363,
+    "duration" : 2624
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "intercept (\"{\n  \"url\": \"/wp-admin/admin-ajax*\",\n  \"query\": {\n    \"term\": \"EBAC\"\n  }\n}\"; \"[function]\")",
+      "time" : {
+        "start" : 1721344622641,
+        "stop" : 1721344622655,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1721344633739,
+        "stop" : 1721344634624,
+        "duration" : 885
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1721344633758,
+          "stop" : 1721344634624,
+          "duration" : 866
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .site-header .search-form > button",
+      "time" : {
+        "start" : 1721344634626,
+        "stop" : 1721344634633,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1721344634633,
+        "stop" : 1721344634867,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #tbay-header .tbay-search",
+      "time" : {
+        "start" : 1721344634867,
+        "stop" : 1721344634871,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type Stellar Solar Jacket",
+      "time" : {
+        "start" : 1721344634871,
+        "stop" : 1721344635811,
+        "duration" : 940
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .ui-menu-item:not([class^=\"list-header\"]) > a",
+      "time" : {
+        "start" : 1721344635812,
+        "stop" : 1721344636353,
+        "duration" : 541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<a#ui-id-2.ui-menu-item-wrapper.ui-state-active>** to have attribute **title** with the value **Stellar Solar Jacket**",
+      "time" : {
+        "start" : 1721344636352,
+        "stop" : 1721344636352,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Stellar Solar Jacket"
+      }, {
+        "name" : "expected",
+        "value" : "Stellar Solar Jacket"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET http://lojaebac.ebaconline.art.br/wp-admin/admin-ajax.php?callback=jQuery360004277350574118799_1721344634280&action=cena_autocomplete_search&term=Stellar Solar Jacket&category=&post_type=product&_=1721344634281",
+      "time" : {
+        "start" : 1721344636353,
+        "stop" : 1721344636353,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /wp-admin/admin-ajax.php?callback=jQuery360004277350574118799_1721344634280&action=cena_autocomplete_search&term=Stellar%20Solar%20Jacket&category=&post_type=product&_=1721344634281",
+      "time" : {
+        "start" : 1721344636353,
+        "stop" : 1721344636353,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .ui-menu-item:not([class^=\"list-header\"]) > a",
+      "time" : {
+        "start" : 1721344636353,
+        "stop" : 1721344636358,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **Stellar Solar Jacket** to equal **Stellar Solar Jacket**",
+      "time" : {
+        "start" : 1721344636363,
+        "stop" : 1721344636363,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Stellar Solar Jacket"
+      }, {
+        "name" : "expected",
+        "value" : "Stellar Solar Jacket"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Product Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a44362aafc38f66d.json",
+  "parameterValues" : [ ]
+}
